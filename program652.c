@@ -155,7 +155,7 @@ PINODE head = NULL;
 //
 //  Function Name :     InitialiseUAREA
 //  Description :       It is used to initialise UAREA
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
@@ -178,7 +178,7 @@ void InitialiseUAREA()
 //
 //  Function Name :     InitialiseSuperBlock()
 //  Description :       It is used to initialise super block
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
@@ -195,7 +195,7 @@ void InitialiseSuperBlock()
 //
 //  Function Name :     CreateDILB()
 //  Description :       It is used to create linked list of inodes
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
@@ -243,7 +243,7 @@ void CreateDILB()
 //  Function Name :     StartAuxillaryDataInitialisation()
 //  Description :       It is used to call all such functions
 //                      which are used to initialise auxillary data
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
@@ -266,7 +266,7 @@ void StartAuxillaryDataInitialisation()
 //  Function Name :     DisplayHelp()
 //  Description :       It is used to display help to
 //                      the user of project
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
@@ -297,7 +297,7 @@ void DisplayHelp()
 //  Description :       It is used to display man page 
 //                      of specific command
 //  Input :             Name of command
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
@@ -360,7 +360,7 @@ void ManPageDisplay(char Name[])
 //  Input :             Name of file 
 //  Output :            True of presnt
 //                      False is not present
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
@@ -392,7 +392,7 @@ bool IsFileExist(
 //  Description :       It is used to create new file
 //  Input :             Name of file & Permissions
 //  Output :            File Descriptor
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
@@ -500,7 +500,7 @@ int CreateFile (
 //                      all files
 //  Input :             None
 //  Output :            None
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
@@ -531,7 +531,7 @@ void LsFile()
 //                      of all files
 //  Input :             None
 //  Output :            None
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              2/08/2026
 //
 //////////////////////////////////////////////////////
@@ -562,7 +562,7 @@ void LsFile_All()
 //                      of specific files
 //  Input :             File name
 //  Output :            Exit status of function
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              2/08/2026
 //
 //////////////////////////////////////////////////////
@@ -645,7 +645,7 @@ int stat_file(
 //                      the specific file
 //  Input :             File name
 //  Output :            Exit status of function
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              2/08/2026
 //
 //////////////////////////////////////////////////////
@@ -711,7 +711,7 @@ int unlink_file(
 //                      Data that we want to write
 //                      Size of data
 //  Output :            Number of bytes succesfully written
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              2/08/2026
 //
 //////////////////////////////////////////////////////
@@ -772,7 +772,7 @@ int write_file(
 //                      address of empty buffer
 //                      Size of data
 //  Output :            Number of bytes succesfully read
-//  Author :            Piyush Manohar Khairnar
+//  Author :            Anuraj Ramkrushna Ghawate
 //  Date :              2/08/2026
 //
 //////////////////////////////////////////////////////
